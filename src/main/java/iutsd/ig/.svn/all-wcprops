@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/projet_tut/!svn/ver/2/trunk/src/ig
+END
+PanneauConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projet_tut/!svn/ver/2/trunk/src/ig/PanneauConfiguration.java
+END
+GModele3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projet_tut/!svn/ver/2/trunk/src/ig/GModele3D.java
+END
+GSourceDeLumiere.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projet_tut/!svn/ver/2/trunk/src/ig/GSourceDeLumiere.java
+END
+GSDLPonctuelle.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projet_tut/!svn/ver/2/trunk/src/ig/GSDLPonctuelle.java
+END
+GUIMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/projet_tut/!svn/ver/2/trunk/src/ig/GUIMenu.java
+END
+GSDLAmbiante.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projet_tut/!svn/ver/2/trunk/src/ig/GSDLAmbiante.java
+END
+GSDLInfinie.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projet_tut/!svn/ver/2/trunk/src/ig/GSDLInfinie.java
+END
+GUIMasterFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projet_tut/!svn/ver/2/trunk/src/ig/GUIMasterFrame.java
+END
+GSDLProjecteur.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projet_tut/!svn/ver/2/trunk/src/ig/GSDLProjecteur.java
+END
+PanneauSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projet_tut/!svn/ver/2/trunk/src/ig/PanneauSelection.java
+END

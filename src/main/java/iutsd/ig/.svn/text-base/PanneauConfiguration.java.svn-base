@@ -1,0 +1,37 @@
+package ig;
+
+import interfaces.Configurable;
+
+import javax.swing.JComponent;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+import scene.Scene3D;
+
+
+public class PanneauConfiguration extends JPanel{
+
+	private Scene3D scene;
+	private JComponent j;
+	private Configurable configurable;
+	private JLabel rienAConfigurer;
+
+	public PanneauConfiguration(Scene3D scene){
+		this.scene = scene;
+		rienAConfigurer = new JLabel("Sélectionnez un élément à configurer.");
+		j = rienAConfigurer;
+		this.add(j);
+		configurable = null;
+	}
+	
+	public void setConfigurable(Configurable c){
+		this.remove(j);
+		if(configurable != null)
+			scene.removeKeyListener(configurable);
+		configurable = c;
+		j = c.getPanneauConfiguration();
+		this.add(j);
+		scene.addKeyListener(configurable);
+	}
+	
+}

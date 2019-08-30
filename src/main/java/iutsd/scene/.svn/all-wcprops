@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/projet_tut/!svn/ver/2/trunk/src/scene
+END
+Affichable.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projet_tut/!svn/ver/2/trunk/src/scene/Affichable.java
+END
+CouleursSlider.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projet_tut/!svn/ver/2/trunk/src/scene/CouleursSlider.java
+END
+SDLinfinie.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projet_tut/!svn/ver/2/trunk/src/scene/SDLinfinie.java
+END
+Scene3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projet_tut/!svn/ver/2/trunk/src/scene/Scene3D.java
+END
+CouleurModifiable.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projet_tut/!svn/ver/2/trunk/src/scene/CouleurModifiable.java
+END
+Modele3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projet_tut/!svn/ver/2/trunk/src/scene/Modele3D.java
+END
+SourceDeLumiere.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projet_tut/!svn/ver/2/trunk/src/scene/SourceDeLumiere.java
+END

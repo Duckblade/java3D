@@ -1,0 +1,46 @@
+package interfaces;
+
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseMotionListener;
+
+import javax.swing.JPanel;
+
+public abstract class Configurable implements KeyListener, MouseMotionListener, ActionListener{
+
+	protected FeuilleDuConfigurable feuille;
+	protected String nom;
+	protected JPanel panneau;
+
+	// Implémentation obligatoire
+	
+	protected abstract void construirePanneau();
+	
+	public abstract void mouseDragged(MouseEvent arg0);
+
+	public abstract void keyPressed(KeyEvent e);
+	
+	// Déjà implémentée
+	
+	public FeuilleDuConfigurable getLeaf(){
+		return feuille;
+	}
+	
+	public JPanel getPanneauConfiguration(){
+		return panneau;
+	}
+	
+	protected void construireFeuille() {
+		feuille = new FeuilleDuConfigurable(this, nom);
+	}
+
+	// Pas obligée d'être implémentée
+
+	public void mouseMoved(MouseEvent arg0) {}
+
+	public void keyReleased(KeyEvent e){}
+
+	public void keyTyped(KeyEvent e){}
+}

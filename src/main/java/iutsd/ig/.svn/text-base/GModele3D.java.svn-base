@@ -1,0 +1,63 @@
+package ig;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseEvent;
+import java.util.ArrayList;
+
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+import scene.Modele3D;
+
+import interfaces.Configurable;
+import interfaces.FeuilleDuConfigurable;
+
+public class GModele3D extends Configurable{
+
+	private static int index = 1;
+
+	// Les attributs définissant le GModele
+	private Modele3D modele;
+	
+	// Concernant le panneau du GModele
+	private JTextField jtfX, jtfY, jtfZ;
+
+	public GModele3D(Modele3D m){
+		modele = m;
+		this.nom = "modele 3d - "+index;;
+		index++;
+		this.construireFeuille();
+		this.construirePanneau();
+	}
+	
+	protected void construirePanneau(){
+
+// TODO		
+		panneau = new JPanel();
+
+		
+	}
+	
+	public Modele3D getModele3D(){
+		return modele;
+	}
+
+	@Override
+	public void mouseDragged(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void keyPressed(KeyEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+}
